@@ -12,16 +12,16 @@ function CreateLocalizationInfo()
 		Strings.PluginText = "Yul Festival Launcher";
 		Strings.PluginAltEnable = "Alt-Taste aktiviert";
 		Strings.PluginAltDesable = "Alt-Taste deaktiviert";
-		Strings.PluginWindowShow = "Schaufenster.";
-		Strings.PluginWindowHide = "Verstecke das Fenster.";
-		Strings.PluginHelp = " *** Yul Helfer Hilfe ***\n\n" ..
-		"/Yu show Zeigen Sie das Fenster an\n" ..
-		"/Yu hide Verstecke das Fenster\n" ..
-		"/Yu default f\195\188llt sich mit Basisobjekten\n" ..
-		"/Yu alt - ALT-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
-		"/Yu clear L\195\182schen Sie alle Verkn\195\188pfungen\n" ..
-		"/Yu toggle - Fenster ein-oder ausblenden\n\n" ..
-		"Sie k\195\182nnen Objekte nach Belieben ziehen und ablegen";
+		Strings.PluginWindowShow = "Fenster wird angezeigt";
+		Strings.PluginWindowHide = "Fenster wird ausgeblendet";
+		Strings.PluginHelp = "\n *** Yul Festival Launcher Hilfe ***\n" ..
+		"/yu show - Zeigt das Fenster an.\n" ..
+		"/yu hide - Blendet das Fenster aus.\n" ..
+		"/yu default - F\195\188llt die Pl\195\164tze mit Standardobjekten.\n" ..
+		"/yu alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+		"/yu clear - L\195\182scht alle Verkn\195\188pfungen.\n" ..
+		"/yu toggle - Fenster anzeigen/ausblenden.\n\n" ..
+		"Du kannst die Verkn\195\188pfungen nach Belieben ziehen und ablegen.";
 
 elseif Turbine.Engine.GetLanguage() == Turbine.Language.French then
 		Strings.PluginName = "Yul";
